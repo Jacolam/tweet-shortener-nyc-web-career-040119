@@ -1,4 +1,6 @@
 # Write your code here.
+require pry 
+
 def word_substituter(tweet)
   dictionary = {
     hello: hi,
@@ -12,5 +14,5 @@ def word_substituter(tweet)
     at: "@",
     :and => "&" }
     
-  end
+end
     
