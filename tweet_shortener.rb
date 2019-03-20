@@ -12,4 +12,5 @@ def word_substituter(tweet)
     at: "@",
     :and => "&" }
     
+  end
     
