@@ -14,6 +14,7 @@ def word_substituter(tweet)
     :and => "&" }
     
   tweet_array = tweet.split()
+  
   tweet_array.each_with_index do |word , i|
     dictionary.each do |key , substitute|
       if word == key 
