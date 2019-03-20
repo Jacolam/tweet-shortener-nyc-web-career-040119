@@ -13,5 +13,14 @@ def word_substituter(tweet)
     at: "@",
     :and => "&" }
     
+  tweet_array = tweet.split()
+  tweet_array.each do |word|
+    dictionary.each do |key , substitute|
+      if word == key 
+        word = substitute
+      end 
+    end 
+  end 
+    
 end
     
